@@ -1,0 +1,32 @@
+{
+  "name": "accelerator-forum-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Felipe Gustavo de Meneses Mendes <felipegmmendes@hotmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.1",
+    "@types/bluebird": "^3.5.20",
+    "@types/body-parser": "^1.16.8",
+    "@types/express": "^4.11.1",
+    "@types/jsonwebtoken": "^7.2.5",
+    "@types/mongoose": "^5.0.2",
+    "@types/socket.io": "^1.4.31",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.6",
+    "socket.io": "^2.0.4"
+  }
+}
