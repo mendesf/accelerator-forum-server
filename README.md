@@ -11,6 +11,6 @@ First you have to install Node.js and MongoDB.
 Then run `npm install` to install all the dependencies.
 
 ## Running
-First, run <code>npm run build</code> to transpile the files.
+First, run `npm run build` to transpile the files.
  
-Now you can run <code>npm start</code> to start the server.
+Now you can run `npm start` to start the server.
